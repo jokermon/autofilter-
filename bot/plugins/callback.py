@@ -1661,10 +1661,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Support', url='t.me/Mo_Tech_Group'),
-            InlineKeyboardButton('Bot Updates', url=f't.me/{MT_UPDATES}')
+            InlineKeyboardButton('Support', url='t.me/cinehut'),
+            InlineKeyboardButton('Bot Updates', url='t.me/cinehut')
         ],[
-            InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
+            InlineKeyboardButton('🖥️ Join our group 😅🖥️', url='t.me/cinehut')
         ],[   
             InlineKeyboardButton('🏠Home', callback_data='start'),
             InlineKeyboardButton('About😎', callback_data='about'),
@@ -1683,7 +1683,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
+            InlineKeyboardButton('🖥️ Join our group 😅🖥️', url='https://t.me/cinehut')
         ],[
             InlineKeyboardButton('🏠Home', callback_data='start'),
             InlineKeyboardButton('Close❌️', callback_data='close')
